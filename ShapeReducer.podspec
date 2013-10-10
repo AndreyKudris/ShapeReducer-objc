@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "Tomislav Filip" => "tomislav@me.com" }
   s.source       = { :git => "https://github.com/shortcut/ShapeReducer-objc.git"}
   s.platform     = :ios, '5.0'
-  s.source_files = ''
+  s.source_files = './'
   s.framework = 'UIKit'
   s.requires_arc = false
 end
